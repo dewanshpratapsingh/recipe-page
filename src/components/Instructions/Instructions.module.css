@@ -1,0 +1,25 @@
+.title {
+    color :rgb(112, 13, 13);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.instructionsList{
+    list-style: none;
+    padding-left: 18px;
+}
+
+.instructionsList li {
+    position: relative;
+    padding-left: 20px; 
+}
+
+.instructionsList li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+}
+  

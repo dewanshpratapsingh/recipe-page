@@ -1,0 +1,19 @@
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+body{
+  background-color: rgb(241, 229, 216);
+}
+
+.container {
+  width: 40%;
+  margin: 7% auto;
+  padding: 18px;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+
+.wrapper {
+  padding: 10px;
+}

@@ -1,0 +1,51 @@
+.image {
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .preparationTime {
+    background-color: #f1d7f04b;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .preparationTime p{
+    color: #932cad;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .preparationTime h2 {
+    margin-bottom: 10px;
+  }
+  
+  .preparationTime ul{
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .preparationTime li {
+    position: relative;
+    padding-left: 20px; /* Control gap here */
+  }
+
+  .preparationTime li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black;
+  }
+  
